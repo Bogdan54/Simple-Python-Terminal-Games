@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+from simple_term_menu import TerminalMenu
+import subprocess
+import game1.py
+
+RockPaperScissors = "python rock-paper-scissors.py"
+def main():
+    options = ["Rock Paper Scissors", "Number Guessing", "entry 3"]
+    terminal_menu = TerminalMenu(options)
+    menu_entry_index = terminal_menu.show()
+    print(f"You have selected {options[menu_entry_index]}!")
+    if menu_entry_index == 'Rock Paper Scissors':
+	game1.play_rps()
+
+if __name__ == "__main__":
+    main()
