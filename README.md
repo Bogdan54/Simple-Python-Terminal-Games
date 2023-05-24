@@ -17,15 +17,11 @@ To run these games on your local machine, follow the steps below:
 
 3. Open a terminal or command prompt and navigate to the project's root directory.
 
-4. Install the required dependencies by running the following command:
+4. Run a game of your choice by executing its corresponding Python file. For example, to play "Guess the Number", run the following command and choose what to play:
 
-> pip install -r requirements.txt
+> python start.py
 
-5. Run a game of your choice by executing its corresponding Python file. For example, to play "Guess the Number", run the following command:
-
-> python guess_the_number.py
-
-6. Follow the on-screen instructions to play the game and enjoy!
+5. Follow the on-screen instructions to play the game and enjoy!
 
 ## Contribution Guidelines
 If you wish to contribute to this project, you're welcome to submit pull requests. Contributions that add new games, improve existing games, or enhance the project's documentation are highly appreciated. Please make sure to follow the guidelines mentioned in the CONTRIBUTING.md file.
